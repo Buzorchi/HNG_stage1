@@ -93,13 +93,18 @@ h2 {
     color: crimson;
 }
 
-a {
+button{
     text-decoration: none;
-    color: crimson;
+    color: white;
     font-size: 14px;
+    padding: 1rem;
+    border: none;
+    background: darkcyan;
+    opacity: 80%;
+    border-radius: 5px;
 
 }
 
-a:hover {
-    color: darkorchid;
+button:hover {
+    color: salmon;
 }
