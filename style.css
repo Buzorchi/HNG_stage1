@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@200&family=Roboto&display=swap');
+
+. {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Serif Display', serif;
+    margin-top: 2rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35rem;
+    margin: 0 auto;
+    box-shadow: -4px -1px 11px 6px rgba(197, 50, 128, 0.49);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.userName {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+}
+
+.profilePic {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+
+}
+
+.day {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 16px;
+    color: crimson;
+    padding-top: 0.5rem;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background: salmon;
+    opacity: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkcyan;
+    opacity: 80%;
+}
+
+.clock #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: gray;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 16px;
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 14px;
+
+}
+
+a:hover {
+    color: darkorchid;
+}

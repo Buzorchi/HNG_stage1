@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Page</title>
+</head>
+<body>
+    <div class="profile">
+        <h1 data-testid="slackUserName" class="userName">Mary Muoghalu</h1>
+        <img src="./images/my-pic.jpg" alt="myProfilePic" data-testid="slackDisplayImage" class="profilePic">
+        
+        <div>
+            <h2 id="dayOfWeek" data-testid="currentDayOfTheWeek" class="day" >Monday</h2>
+        </div>
+        <div class = "clock" data-testid="currentUTCTime">
+            <div>
+                <span id = "hour">00</span>
+                <span class = "text">Hours</span>
+            </div>
+            <div>
+                <span id = "minutes">00</span>
+                <span class = "text">Minutes</span>
+            </div>
+            <div>
+                <span id = "seconds">00</span>
+                <span class = "text">Seconds</span>
+            </div>
+            <div>
+                <span id = "ampm">AM</span>
+            </div>
+        </div>
+        <h2 data-testid="myTrack">Frontend</h2>
+        <a href="https://github.com/Buzorchi?tab=repositories" target="_blank" data-testid="githubURL">Github</a>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
